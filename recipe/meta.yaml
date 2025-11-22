@@ -1,5 +1,5 @@
 {% set name = "composio-openai" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/composio_openai-{{ version }}.tar.gz
-  sha256: 1c7d0721e856f49b46bed315cd2582565d5d9dc1a48d910fcc298a7d9268393c
+  sha256: 6c1cc591e3af9147e9e6e4e02770ca0955303ee6f96b0daecff472b2ac42d2e6
 
 build:
   noarch: python
