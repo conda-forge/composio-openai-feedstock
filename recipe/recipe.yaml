@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: composio-openai
-  version: "0.17.1"
+  version: "0.18.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/composio_openai-${{ version }}.tar.gz
-  sha256: 9372ff957d5b4eb0ff0ef0bc36fa5aba6a423f2128f3b5354697a5b82bf5864c
+  sha256: 6c2c74fe1e3c244ba2408fed6dd43a3ca09cc0589a2830583c098f9ce9993c33
 
 build:
   number: 0
